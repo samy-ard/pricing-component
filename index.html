@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Pricing component with toggle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <main class="site-page">
+    <header class="site-header">
+      <h1 class="site-title">Our Pricing</h1>
+      <div class="pricing-period">
+        <span>Annually</span>
+        <label class="switch-wrapper">
+          <input type="checkbox" name="pricing">
+          <div class="switch"></div>
+        </label>
+        <span>Monthly</span>
+      </div>
+    </header>
+    <section class="site-content">
+      <div class="row">
+        <article class="col card card-offer">
+          <h2 class="card-title">Basic</h2>
+          <h3 class="card-price">
+            <small>&dollar;</small>
+            <span class="monthly">19.99</span>
+            <span class="annually">199.99</span>
+          </h3>
+          <ul class="offer-details">
+            <li>500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+            <li><a href="#" class="btn" title="Learn More">Learn More</a></li>
+          </ul>
+        </article>
+        <article class="col card card-offer card-focused">
+          <h2 class="card-title">Professional</h2>
+          <h3 class="card-price">
+            <small>&dollar;</small>
+            <span class="monthly">24.99</span>
+            <span class="annually">249.99</span>
+          </h3>
+          <ul class="offer-details">
+            <li>1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+            <li><a href="#" class="btn btn-alt" title="Learn More">Learn More</a></li>
+          </ul>
+        </article>
+        <article class="col card card-offer">
+          <h2 class="card-title">Master</h2>
+          <h3 class="card-price">
+            <small>&dollar;</small>
+            <span class="monthly">39.99</span>
+            <span class="annually">399.99</span>
+          </h3>
+          <ul class="offer-details">
+            <li>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+            <li><a href="#" class="btn" title="Learn More">Learn More</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
